@@ -81,6 +81,6 @@ Print the average mark for each student using NumPy.
 
 # Expected Output:
 # [84.33 91.67 79.33]"""
-student=np.array([[85,75,90],[92,88,95],[76,82,80]])
+student=np.array([[85,78,90],[92,88,95],[76,82,80]])
 average=np.mean(student,axis=1)
 print(np.round(average,2))
